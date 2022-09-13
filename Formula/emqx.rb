@@ -11,12 +11,12 @@ class Emqx < Formula
     "1.0.8"
   end
 
+  depends_on "emqx/emqx-erlang/emqx-erlang" => :build
   depends_on "autoconf"  => :build
   depends_on "automake"  => :build
   depends_on "cmake"     => :build
   depends_on "coreutils" => :build
   depends_on "curl"      => :build
-  depends_on "erlang@24" => :build
   depends_on "freetds"   => :build
   depends_on "libtool"   => :build
   depends_on "unzip"     => :build
